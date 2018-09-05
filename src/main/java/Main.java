@@ -1,5 +1,6 @@
 import triangle.Asterisk;
 import triangle.HorizontalLine;
+import triangle.RightTriangle;
 import triangle.VerticalLine;
 
 public class Main {
@@ -13,5 +14,7 @@ public class Main {
         HorizontalLine.draw(8);
         System.out.println("Draw a vertical line: ");
         VerticalLine.draw(3);
+        System.out.println("Draw a right triangle: ");
+        RightTriangle.draw(3);
     }
 }
