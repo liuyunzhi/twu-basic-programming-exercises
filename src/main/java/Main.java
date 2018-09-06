@@ -33,5 +33,10 @@ public class Main {
         System.out.println();
         System.out.println("FizzBuzz: ");
         FizzBuzz.draw(15);
+
+        System.out.println("Prime Factors Exercise: ");
+        System.out.println();
+        System.out.println("Prime Factors: ");
+        PrimeFactors.draw(30);
     }
 }
