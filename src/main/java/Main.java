@@ -1,3 +1,4 @@
+import diamond.IsoscelesTriangle;
 import triangle.Asterisk;
 import triangle.HorizontalLine;
 import triangle.RightTriangle;
@@ -16,5 +17,10 @@ public class Main {
         VerticalLine.draw(3);
         System.out.println("Draw a right triangle: ");
         RightTriangle.draw(3);
+
+        System.out.println("Diamond Exercises: ");
+        System.out.println();
+        System.out.println("Isosceles Triangle: ");
+        IsoscelesTriangle.draw(3);
     }
 }
