@@ -1,4 +1,5 @@
 import diamond.Diamond;
+import diamond.DiamondWithName;
 import diamond.IsoscelesTriangle;
 import triangle.Asterisk;
 import triangle.HorizontalLine;
@@ -25,5 +26,7 @@ public class Main {
         IsoscelesTriangle.draw(3);
         System.out.println("Diamond: ");
         Diamond.draw(3);
+        System.out.println("Diamond with name: ");
+        DiamondWithName.draw(3);
     }
 }
