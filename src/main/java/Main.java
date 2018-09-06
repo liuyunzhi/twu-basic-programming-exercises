@@ -1,6 +1,7 @@
 import diamond.Diamond;
 import diamond.DiamondWithName;
 import diamond.IsoscelesTriangle;
+import fizzBuzz.FizzBuzz;
 import triangle.Asterisk;
 import triangle.HorizontalLine;
 import triangle.RightTriangle;
@@ -28,5 +29,10 @@ public class Main {
         Diamond.draw(3);
         System.out.println("Diamond with name: ");
         DiamondWithName.draw(3);
+
+        System.out.println("FizzBuzz Exercise: ");
+        System.out.println();
+        System.out.println("FizzBuzz: ");
+        FizzBuzz.draw(15);
     }
 }
