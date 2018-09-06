@@ -1,7 +1,6 @@
 import diamond.Diamond;
 import diamond.DiamondWithName;
 import diamond.IsoscelesTriangle;
-import fizzBuzz.FizzBuzz;
 import triangle.Asterisk;
 import triangle.HorizontalLine;
 import triangle.RightTriangle;

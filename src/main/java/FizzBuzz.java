@@ -1,5 +1,3 @@
-package fizzBuzz;
-
 public class FizzBuzz {
 
     public static void draw(Integer n) {
